@@ -33,7 +33,7 @@ namespace telnetbrute
 
 						if(tc.IsConnected){
 							writer.WriteLine(password);
-							writer.WriteLine("****DING DING " + password);
+							Console.WriteLine("****DING DING " + password);
 						}
 					
 					} catch (Exception e) {

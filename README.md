@@ -7,3 +7,4 @@ False positives for every ~3rd password attempt because the telnet daemon on the
 
 So I got this little silly telnet client from codeproject and modified it to deal with these funky daemons and still get some bruteforcing love.
 
+Run using mono, Miguel FTW.

@@ -1,1 +1,5 @@
 /home/ashr/dev/linux-dotnet/batches/telnet-brute/no-username-telnet-bruter/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/ashr/dev/linux-dotnet/batches/telnet-brute/no-username-telnet-bruter/bin/Debug/telnet-brute.exe.mdb
+/home/ashr/dev/linux-dotnet/batches/telnet-brute/no-username-telnet-bruter/bin/Debug/telnet-brute.exe
+/home/ashr/dev/linux-dotnet/batches/telnet-brute/no-username-telnet-bruter/obj/x86/Debug/telnet-brute.exe
+/home/ashr/dev/linux-dotnet/batches/telnet-brute/no-username-telnet-bruter/obj/x86/Debug/telnet-brute.exe.mdb
