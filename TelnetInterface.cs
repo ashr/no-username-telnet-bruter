@@ -59,6 +59,7 @@ namespace MinimalisticTelnet
 			Console.WriteLine (s);
 			if (s.Contains("Password incorrect")){
 				Console.WriteLine("Password incorrect");
+				this.IsConnected = false;
 			}
             TimeOutMs = oldTimeOutMs;
             return s;
@@ -90,6 +91,10 @@ namespace MinimalisticTelnet
 
         public bool IsConnected
         {
+			set{
+				if (value == false)
+					tcpSocket.Close(); 
+			}
             get { return tcpSocket.Connected; }
         }
 
